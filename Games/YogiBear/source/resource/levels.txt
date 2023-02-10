@@ -1,0 +1,123 @@
+; EASY 1
+
+MMMMMMMMM
+MY     BM
+M       M
+M    R  M
+M       M
+M       M
+M   B   M
+MMMMMMMMM
+; EASY 2
+
+MMMMMMMM 
+M  Y   M
+ M    M 
+ M  R M
+ M TT M
+M      M
+M  B   M
+MMMMMMMM
+
+; EASY 3
+
+   MMM
+  MM T MMMM
+ MM  TTT  M
+TT      B M
+T    Y T  M
+MMM  TMT rM
+  T  MB   M
+ MM TT T TM
+ T     R TM
+ T  B  TM
+ MMMMMMM
+
+; EASY 4
+
+MMMMMMMMMMM
+MY        M
+MTTTTTTTT M
+MB        M
+MTTTTTTTT M
+MB       rM
+MTTTTTTTT M
+MB        M
+MMMMMMMMMMM
+
+; EASY 5
+
+MMMMMMMMMMMMM
+M T        RM
+M T  TTTT   M
+M    TB T   M
+MrT  T     rM
+M T  TB T   M
+M T  TTTT   M
+MYTR        M
+MMMMMMMMMMMMM
+
+; EASY 6
+
+ MM MMMMM
+MM MT B  M
+T MT    RM
+ MT      M
+TT  Y TMM
+T    TM
+T R   MM
+TB    TM
+MMMMMMT
+
+; EASY 7
+
+  MMMMMMMM
+ MM  Y    TM
+MT        TM
+M          T
+MTT       M
+MTTTT   RTTM
+MR      TMM
+ TT B   TM
+MT    RTMM
+MTTTMMMM
+
+; EASY 8
+
+  MMMMMMMMMMM
+MTY      TTTM
+TTTTTT     RT
+MB      TTTTM
+MTTTTT     BT
+T    r  T   T
+T   T   T r M
+M   T   T   M
+MB         RT
+MMMMMMMTTMMTT
+
+; EASY 9
+
+              MMMMM
+              M B M
+    MMMMM     M   MMMMMMM
+    M B MMMMM M  R      M
+MMMMM M MM  M M     M M M
+M      Y    M MM   MM   M
+M M MM      MMMM MMM R  MMM
+M      MM R M    M M      M
+MMMMMMMMMM      MM M   B  M
+         M    MrM  MMMMMMMM
+         M MM B M
+         MMMMMMMM
+
+; EASY 10
+
+MMMMMMMMMM
+MBR     BM
+M       rM
+M        M
+M    Y   M
+M        M
+Mr       M
+MB     RBM
+MMMMMMMMMM
