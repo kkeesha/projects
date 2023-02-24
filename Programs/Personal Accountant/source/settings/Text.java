@@ -187,10 +187,12 @@ final public class Text {
             data.put("DIALOG_ABOUT_TITLE", "О программе");
             data.put("ABOUT", "<body style='font-size: 120%; text-align: center; width: 350px;'>"
                     + "<h1>Домашняя бухгалтерия</h1><p><img src='file:images/main.png' /></p>"
-                    + "<p>Данная программа была сделана в Видеокурсе"
-                    + "<br />\"Создание крупного проекта на Java с Нуля\""
-                    + "<br /><a style='font-weight: bold;' href='https://srs.myrusakov.ru/javaproject'>https://srs.myrusakov.ru/javaproject</a></p>"
-                    + "<p>С Уважением, Михаил Русаков!</p>"
+                    + "<p>Программа для просмотра своих доходов и затрат"
+                    + "<br />\"Вы можете добовлять свои операции, счета, переводы и транзакции. Также можно будет просматривать это данные а пропорциональных отношениях, т.е. "
+                    + "физуальные просмотр при помощи гистограммы\""
+                    + "<br /><a style='font-weight: bold;' href='https://github.com/kkeesha/projects/tree/main/Programs/Personal%20Accountant'>"
+                    + "ГитХаб: Личный бухгалтер</a></p>"
+                    + "<p>С Уважением, Кайрат Алкожоев!</p>"
                     + "<p>Copyright " + Calendar.getInstance().get(Calendar.YEAR) + " </p></body>");
         }
         else {
@@ -348,11 +350,12 @@ final public class Text {
 
             data.put("DIALOG_ABOUT_TITLE", "About");
             data.put("ABOUT", "<body style='font-size: 120%; text-align: center; width: 350px;'>"
-                    + "<h1>Personal finance</h1><p><img src='file:images/main.png' /></p>"
-                    + "<p>This program was made in the Video Course"
-                    + "<br />\"Creating a large Java project from scratch\""
-                    + "<br /><a style='font-weight: bold;' href='https://srs.myrusakov.ru/javaproject'>https://srs.myrusakov.ru/javaproject</a></p>"
-                    + "<p>With respect, Michael Rusakov!</p>"
+                    + "<h1>Personal Accountant</h1><p><img src='file:images/main.png' /></p>"
+                    + "<p>Program for management of finances"
+                    + "<br />\"You can add your accounts, transactions, transfers. Also you are able to see your data e.g. histogram representation\""
+                    + "<br /><a style='font-weight: bold;' href='https://github.com/kkeesha/projects/tree/main/Programs/Personal%20Accountant'>"
+                    + "GitHub: Personal Accountant</a></p>"
+                    + "<p>With respect, Kairat Alkozhoev!</p>"
                     + "<p>Copyright " + Calendar.getInstance().get(Calendar.YEAR) + " </p></body>");
         }
     }
