@@ -2,6 +2,8 @@
 BUILD OUTPUT DESCRIPTION
 ========================
 
+jdk1.8.0_201 is needed with javaw.exe file
+
 When you build an Java application project that has a main class, the IDE
 automatically copies all of the JAR
 files on the projects classpath to your projects dist/lib folder. The IDE
