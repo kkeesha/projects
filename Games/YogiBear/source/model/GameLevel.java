@@ -106,13 +106,7 @@ public class GameLevel {
         return false;
     }
 
-    /**
-     * Ha a meghívjuk a metódust a játékos pozíciójához viszonítva
-     * a szomszédos mezőket megvizsgáljuk, hogy van e rajta Ranger
-     * Ha van akkor csökkentjük a játékos életét ha > 0, 
-     * majd a jáékost visszaállítjuk az eredeti poziciójára
-     * @return 
-     */
+
     public boolean loseHP() {
         Position p = player;
         for (int x = -1; x < 2; x++) {
@@ -140,13 +134,7 @@ public class GameLevel {
         return collectedBaskets == baskets;
     }
     
-    /**
-     * Megnézzük hogy van e ranger a közelben, ha nincs és
-     * a szint még nincs kész és a d irány amerre lépni akar a játékos szabad
-     * akkor oda állítjuk a játékost, növeljük a lépésszámot.
-     * @param d
-     * @return 
-     */
+
     public boolean movePlayer(Direction d) {
         Position curr = player;
         Position next = curr.translate(d);
@@ -164,10 +152,7 @@ public class GameLevel {
         return false;
     }
 
-    /**
-     * A a ranger ArrayListből az összes rangert mozgatjuk, a rangereknek eltárolt
-     * írányba, ha nem szabad a követkető mező akkor visszafordulnak.
-     */
+
     public void moveRanger(){
         for(Ranger r1 : ranger1){
             Position next = r1.getPosition().translate(r1.getDirection());
@@ -181,13 +166,7 @@ public class GameLevel {
         }
     }
     
-    /**
-     * Ha a játékos egy kosárra akar lépni  és még nincs kész a szint
-     * akkor a játékost ráállítjuk a mezőre, azt a mezőt kicseréljük egy üresre
-     * és ha a közelben van egy ranger akkor meghívjuk a liseHP() metódust
-     * @param d
-     * @return 
-     */
+
     public boolean collectBasekt(Direction d) {
         Position curr = player;
         Position next = curr.translate(d);
