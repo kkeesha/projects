@@ -32,10 +32,7 @@ public class Board extends JPanel{
         player = ResourceLoader.loadImage("res/yogi.png");
     }
     
-    /**
-     * Frissíti a pályát és újrarajzolja.
-     * @return 
-     */
+
     public boolean refresh(){
         if(!game.isLevelLoaded()) return false;
         Dimension dim = new Dimension(game.getLevelCols() * scaled_size, game.getLevelRows() * scaled_size);
